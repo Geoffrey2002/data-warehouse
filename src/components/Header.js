@@ -12,7 +12,7 @@ const Header = () => {
   const [navMobile, setNavMobile] = useState(false);
   return (
     <header
-      className='mb-8 lg:mb-0 py-4 z-20 relative'
+      className='mb-8 lg:mb-0 py-4 z-20 relative px-4'
       data-aos='fade-down'
       data-aos-delay='1200'
       data-aos-duration='900'
@@ -33,7 +33,7 @@ const Header = () => {
           <div
             className={`${
               navMobile ? 'max-h-52' : 'max-h-0'
-            } lg:hidden absolute top-16 bg-accent-tertiary w-full left-0 right-0 text-white font-bold rounded transition-all overflow-hidden`}
+            } lg:hidden absolute top-16 bg-accent-tertiary w-full left-0 right-0 font-bold rounded transition-all overflow-hidden`}
           >
             <NavMobile />
           </div>
