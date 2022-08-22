@@ -12,7 +12,7 @@ const Header = () => {
   const [navMobile, setNavMobile] = useState(false);
   return (
     <header
-      className='mb-8 lg:mb-0 py-4 z-20 relative px-4'
+      className='mb-12 lg:mb-0 z-20 relative px-4 lg:px-0'
       data-aos='fade-down'
       data-aos-delay='1200'
       data-aos-duration='900'
