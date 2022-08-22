@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 // import icons
 import { FaBars } from 'react-icons/fa';
@@ -9,6 +9,7 @@ import Nav from './Nav';
 import NavMobile from './NavMobile';
 
 const Header = () => {
+  const [navMobile, setNavMobile] = useState(false);
   return (
     <header
       className='mb-8 lg:mb-0 py-4 z-20 relative'
@@ -29,12 +30,19 @@ const Header = () => {
           </div>
 
           {/* mobile nav / initially is showing / hide on large screens   */}
-          <div className='lg:hidden absolute top-16 bg-yellow-300 w-full left-0 right-0'>
+          <div
+            className={`${
+              navMobile ? 'max-h-52' : 'max-h-0'
+            } lg:hidden absolute top-16 bg-accent-tertiary w-full left-0 right-0 text-white font-bold rounded transition-all overflow-hidden`}
+          >
             <NavMobile />
           </div>
 
-          {/* nav trigger btn / only show it on mobile screens */}
-          <div className='text-2xl text-primary  cursor-pointer lg:hidden'>
+          {/* nav trigger btn / only showing on mobile screens */}
+          <div
+            onClick={() => setNavMobile(!navMobile)}
+            className='text-2xl text-primary cursor-pointer lg:hidden'
+          >
             <FaBars />
           </div>
         </div>
