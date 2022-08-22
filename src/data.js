@@ -11,6 +11,7 @@ import Avatar1Img from '../src/assets/img/testimonials/avatar1.png';
 import Avatar2Img from '../src/assets/img/testimonials/avatar2.png';
 import Avatar3Img from '../src/assets/img/testimonials/avatar3.png';
 import LogoV2 from '../src/assets/img/logo-v2.png';
+import HeroImage from '../src/assets/img/hero-img.png';
 
 export const navigation = [
   {
@@ -32,10 +33,11 @@ export const navigation = [
 ];
 
 export const hero = {
-  title: ' Save your data storage here.',
+  title: ` Save your data storage here.`,
   subtitle:
     'Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others.',
   btnText: 'Learn more',
+  image: HeroImage,
 };
 
 export const about = {

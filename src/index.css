@@ -15,10 +15,19 @@
     @apply font-primary text-base;
   }
   a {
-    @apply text-secondary font-semibold  hover:text-base transition;
+    @apply text-secondary font-semibold hover:text-base transition;
   }
   .btn {
-    @apply text-lg h-[60px] px-[30px] rounded-full;
+    @apply text-lg h-[60px] px-[30px] rounded-full transition text-white;
+  }
+  .btn-primary {
+    @apply bg-accent-primary hover:bg-accent-primary_hover;
+  }
+  .btn-secondary {
+    @apply bg-accent-secondary hover:bg-accent-secondary_hover;
+  }
+  .h1 {
+    @apply text-[40px] xl:text-[80px] font-bold leading-[1.1];
   }
   .h2 {
     @apply text-[40px] font-bold;
