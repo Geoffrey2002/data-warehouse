@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply font-secondary text-secondary;
+    @apply font-secondary text-secondary bg-gradient-to-b from-[#F6FAFD] to-[#FFFFFF] bg-no-repeat;
   }
   h1,
   h2,
@@ -12,12 +12,21 @@
   h4,
   h5,
   h6 {
-    @apply text-base;
+    @apply font-primary text-base;
   }
   a {
     @apply text-secondary font-semibold  hover:text-base transition;
   }
   .btn {
     @apply text-lg h-[60px] px-[30px] rounded-full;
+  }
+  .h2 {
+    @apply text-[40px] font-bold;
+  }
+  .h3 {
+    @apply text-[24px];
+  }
+  .lead {
+    @apply text-lg text-secondary font-secondary font-medium leading-relaxed;
   }
 }

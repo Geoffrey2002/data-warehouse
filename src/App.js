@@ -1,14 +1,13 @@
 import React from 'react';
 
+// import components
+import Hero from './components/Hero';
+
 const App = () => {
   return (
-    <div className=' drop-shadow-primary'>
-      <h1 className=' font-bold'>
-        <a href='#'>Link 1</a>
-        <a href='#'>Link 2</a>
-        <a href='#'>Link 3</a>
-      </h1>
-      <button className='btn'>Learn more</button>
+    <div>
+      <Hero />
+      <div className='h-[2000px]'></div>
     </div>
   );
 };
