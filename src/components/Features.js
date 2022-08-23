@@ -39,9 +39,9 @@ const Features = () => {
             return (
               <div
                 key={index}
-                className='w-full max-w-[530px] h-[358px] relative flex flex-col items-center  justify-center xl:flex-row xl:justify-start mx-auto'
+                className='w-full max-w-[530px] h-[358px] relative flex flex-col items-center justify-center xl:flex-row xl:justify-start mx-auto'
                 data-aos='zoom-in'
-                // data-aos-offset='100'
+                data-aos-offset='100'
                 data-aos-delay={delay}
               >
                 {/* bg image */}
@@ -50,7 +50,11 @@ const Features = () => {
                 </div>
 
                 {/* icon image */}
-                <div className='max-w-[120px] xl:mr-7 xl:max-w-[232px]'>
+                <div
+                  className='max-w-[120px] xl:mr-7 xl:max-w-[232px]'
+                  data-aos='zoom-in-right'
+                  data-aos-delay={delay}
+                >
                   <img src={image} />
                 </div>
                 {/* text */}
