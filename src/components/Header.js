@@ -8,6 +8,9 @@ import Logo from '../assets/img/logo.png';
 import Nav from './Nav';
 import NavMobile from './NavMobile';
 
+// import icons
+import { BsArrowRight } from 'react-icons/bs';
+
 const Header = () => {
   const [navMobile, setNavMobile] = useState(false);
   return (
@@ -19,17 +22,19 @@ const Header = () => {
     >
       <div className='container mx-auto'>
         <div className='flex items-center justify-between relative'>
-          {/* logo */}
-          <a href='#'>
-            <img src={Logo} alt='' />
-          </a>
+          <div className='flex items-center gap-x-[120px]'>
+            {/* logo */}
+            <a href='#'>
+              <img src={Logo} alt='' />
+            </a>
 
-          {/* nav / initially hidden / show on large screens  */}
-          <div className='hidden lg:flex'>
-            <Nav />
+            {/* nav / initially hidden / show on large screens  */}
+            <div className='hidden lg:flex'>
+              <Nav />
+            </div>
           </div>
 
-          {/* mobile nav / initially is showing / hide on large screens   */}
+          {/* mobile nav / initially is showing / hide on large screens */}
           <div
             className={`${
               navMobile ? 'max-h-52' : 'max-h-0'
@@ -38,7 +43,12 @@ const Header = () => {
             <NavMobile />
           </div>
 
-          {/* nav trigger btn / only showing on mobile screens */}
+          <button className='btn btn-quaternary flex items-center gap-x-[20px] group'>
+            Request Demo
+            <BsArrowRight className='text-2xl text-accent-primary group-hover:text-white transition' />
+          </button>
+
+          {/* nav trigger btn / only shows on mobile screens */}
           <div
             onClick={() => setNavMobile(!navMobile)}
             className='text-2xl text-primary cursor-pointer lg:hidden'
