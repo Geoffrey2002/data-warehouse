@@ -1,14 +1,14 @@
 import React from 'react';
 
 // import hero data
-import { hero } from '../data';
+import { heroData } from '../data';
 
 // import components
 import Header from './Header';
 
 const Hero = () => {
   // destructure hero
-  const { title, subtitle, btnText, image } = hero;
+  const { title, subtitle, btnText, image } = heroData;
   return (
     <section className='lg:h-[900px] py-12'>
       <Header />

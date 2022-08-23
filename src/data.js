@@ -13,7 +13,7 @@ import Avatar3Img from '../src/assets/img/testimonials/avatar3.png';
 import LogoV2 from '../src/assets/img/logo-v2.png';
 import HeroImage from '../src/assets/img/hero-img.png';
 
-export const navigation = [
+export const navigationData = [
   {
     name: 'About',
     href: '#',
@@ -32,7 +32,7 @@ export const navigation = [
   },
 ];
 
-export const hero = {
+export const heroData = {
   title: ` Save your data storage here.`,
   subtitle:
     'Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others.',
@@ -40,14 +40,14 @@ export const hero = {
   image: HeroImage,
 };
 
-export const about = {
+export const aboutData = {
   image: AboutImg,
   title: 'We are a high-level data storage bank',
   subtitle:
     'The place to store various data that you can access at any time through the internet  and where you can carry it. This very flexible storage area has a high level of security. To enter into your own data you must enter the password that you created when you registered in this Data Warehouse.',
 };
 
-export const features = {
+export const featuresData = {
   title: 'Features',
   subtitle:
     'Some of the features and advantages that we provide for those of you who store data in this Data Warehouse.',
@@ -83,7 +83,7 @@ export const features = {
   ],
 };
 
-export const testimonials = [
+export const testimonialsData = [
   {
     image: Avatar1Img,
     name: 'John Fang',
@@ -107,14 +107,14 @@ export const testimonials = [
   },
 ];
 
-export const cta = {
+export const ctaData = {
   title: 'Try for free!',
   subtitle: 'Get limited 1 week free try our features!',
   btnText1: 'Learn more',
   btnText2: 'Request Demo',
 };
 
-export const footer = {
+export const footerData = {
   logo: LogoV2,
   address: 'Warehouse Society, 234 Bahagia Ave Street PRBW 29281',
   email: 'info@warehouse.project',
