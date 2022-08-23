@@ -8,7 +8,7 @@ const About = () => {
   const { image, title, subtitle } = aboutData;
   return (
     <section
-      className='my-[30px] xl:my-[100px]'
+      className='my-[30px] xl:mt-[100px]'
       data-aos='fade-up'
       data-aos-offset='350'
     >

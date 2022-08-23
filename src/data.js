@@ -12,6 +12,10 @@ import Avatar2Img from '../src/assets/img/testimonials/avatar2.png';
 import Avatar3Img from '../src/assets/img/testimonials/avatar3.png';
 import LogoV2 from '../src/assets/img/logo-v2.png';
 import HeroImage from '../src/assets/img/hero-img.png';
+import Feature1BgImg from '../src/assets/img/features/feature1_bg.png';
+import Feature2BgImg from '../src/assets/img/features/feature2_bg.png';
+import Feature3BgImg from '../src/assets/img/features/feature3_bg.png';
+import Feature4BgImg from '../src/assets/img/features/feature4_bg.png';
 
 export const navigationData = [
   {
@@ -54,31 +58,39 @@ export const featuresData = {
   list: [
     {
       image: Feature1Img,
+      bgImage: Feature1BgImg,
       title: 'Search Data',
       description:
-        'Don’t worry if your data is very large, the Data Warehoue provides a search engine, which is useful for making it easier to find data effectively saving time.',
-      btnText: 'Learn more',
+        'Don’t worry if your data is very large, the Data Warehouse provides a search engine, which is useful for making it easier to find data effectively saving time.',
+      linkText: 'Learn more',
+      delay: '300',
     },
     {
       image: Feature2Img,
+      bgImage: Feature2BgImg,
       title: '24 Hours Access',
       description:
         'Access is given 24 hours a full morning to night and meet again in the morning, giving you comfort when you need data when urgent..',
-      btnText: 'Learn more',
+      linkText: 'Learn more',
+      delay: '600',
     },
     {
       image: Feature3Img,
+      bgImage: Feature3BgImg,
       title: 'Print Out',
       description:
         'Print out service gives you convenience if someday you need print data, just edit it all and just print it.',
-      btnText: 'Learn more',
+      linkText: 'Learn more',
+      delay: '900',
     },
     {
       image: Feature4Img,
+      bgImage: Feature4BgImg,
       title: 'Security Code',
       description:
         'Data Security is one of our best facilities. Allows for your files to be safer. The file can be secured with a code or password than you created, so only you can open the file.',
-      btnText: 'Learn more',
+      linkText: 'Learn more',
+      delay: '1200',
     },
   ],
 };

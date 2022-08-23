@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 // import components
 import Hero from './components/Hero';
 import About from './components/About';
+import Features from './components/Features';
 
 const App = () => {
   // animate on scroll initialization
@@ -18,6 +19,7 @@ const App = () => {
     <div>
       <Hero />
       <About />
+      <Features />
       <div className='h-[2000px]'></div>
     </div>
   );
