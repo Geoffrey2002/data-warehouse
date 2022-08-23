@@ -11,7 +11,7 @@ import About from './components/About';
 const App = () => {
   // animate on scroll initialization
   Aos.init({
-    duration: 1500,
+    duration: 1800,
     offset: 0,
   });
   return (
