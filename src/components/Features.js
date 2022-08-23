@@ -41,7 +41,7 @@ const Features = () => {
                 key={index}
                 className='w-full max-w-[530px] h-[358px] relative flex flex-col items-center  justify-center xl:flex-row xl:justify-start mx-auto'
                 data-aos='zoom-in'
-                data-aos-offset='150'
+                // data-aos-offset='100'
                 data-aos-delay={delay}
               >
                 {/* bg image */}
