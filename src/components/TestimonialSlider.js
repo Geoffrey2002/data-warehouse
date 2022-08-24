@@ -18,7 +18,7 @@ import { Pagination } from 'swiper';
 const TestimonialSlider = () => {
   return (
     <Swiper
-      slidesPerView={2}
+      slidesPerView={3}
       spaceBetween={20}
       centeredSlides={true}
       pagination={{
