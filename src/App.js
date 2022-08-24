@@ -9,6 +9,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Features from './components/Features';
 import Testimonials from './components/Testimonials';
+import CtaSection from './components/CtaSection';
 
 const App = () => {
   // animate on scroll initialization
@@ -22,6 +23,7 @@ const App = () => {
       <About />
       <Features />
       <Testimonials />
+      <CtaSection />
       <div className='h-[2000px]'></div>
     </div>
   );
