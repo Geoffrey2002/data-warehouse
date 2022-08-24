@@ -14,7 +14,7 @@ const CtaSection = () => {
       <div className='container mx-auto'>
         <div className='flex flex-col xl:flex-row justify-between items-center'>
           {/* text */}
-          <div className='py-24 text-center xl:text-left'>
+          <div className='py-12 xl:py-24 text-center xl:text-left'>
             <h2 className='h2 mb-5' data-aos='fade-up' data-aos-delay='300ps'>
               {title}
             </h2>
@@ -23,7 +23,7 @@ const CtaSection = () => {
             </p>
           </div>
           {/* buttons */}
-          <div className='flex flex-col xl:flex-row  gap-y-4 gap-x-[30px]'>
+          <div className='flex flex-col xl:flex-row gap-y-4 gap-x-[30px]'>
             <button
               className='btn btn-secondary'
               data-aos='fade-up'

@@ -33,7 +33,7 @@ const TestimonialSlider = () => {
           // slide
           <SwiperSlide
             key={index}
-            className='bg-white rounded-[20px] border border-accent-primary xl:max-w-[645px] max-h-[330px] pt-[60px] px-[35px] xl:px-[70px] pb-[50px] flex items-start gap-x-[30px]'
+            className='bg-white rounded-[20px] border border-accent-primary xl:max-w-[645px] max-h-[330px] pt-[60px] px-[35px] xl:px-[70px] pb-[50px] flex items-start gap-x-[30px] shadow-xl'
           >
             {/* avatar image */}
             <img src={image} alt='' />
