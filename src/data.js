@@ -102,6 +102,7 @@ export const testimonialsData = [
     web: 'wordfaang.com',
     message:
       'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
+    delay: '300',
   },
   {
     image: Avatar2Img,
@@ -109,6 +110,7 @@ export const testimonialsData = [
     web: 'janedoee.com',
     message:
       'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
+    delay: '600',
   },
   {
     image: Avatar3Img,
@@ -116,6 +118,7 @@ export const testimonialsData = [
     web: 'jimjimf.com',
     message:
       'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
+    delay: '900',
   },
 ];
 
