@@ -101,21 +101,21 @@ export const testimonialsData = [
     name: 'John Fang',
     web: 'wordfaang.com',
     message:
-      'Data Security is one of our best facilities. Allows for your files to be safer. The file can be secured with a code or password that you created, so only you can open the file.',
+      'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
   },
   {
     image: Avatar2Img,
     name: 'Jane Doe',
     web: 'janedoee.com',
     message:
-      'Data Security is one of our best facilities. Allows for your files to be safer. The file can be secured with a code or password that you created, so only you can open the file.',
+      'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
   },
   {
     image: Avatar3Img,
     name: 'Jim Ferry',
     web: 'jimjimf.com',
     message:
-      'Data Security is one of our best facilities. Allows for your files to be safer. The file can be secured with a code or password that you created, so only you can open the file.',
+      'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
   },
 ];
 

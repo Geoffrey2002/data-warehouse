@@ -18,9 +18,9 @@ import { Pagination } from 'swiper';
 const TestimonialSlider = () => {
   return (
     <Swiper
-      slidesPerView={3}
-      spaceBetween={20}
+      slidesPerView={'auto'}
       centeredSlides={true}
+      spaceBetween={20}
       pagination={{
         clickable: true,
       }}
@@ -31,9 +31,16 @@ const TestimonialSlider = () => {
         // destructure slide
         const { image, message, name, web } = slide;
         return (
-          <SwiperSlide key={index} className='bg-pink-100 max-w-lg'>
+          <SwiperSlide
+            key={index}
+            className='bg-white rounded-[20px] border border-accent-primary xl:max-w-[645px] pt-[60px] px-[35px] xl:px-[70px] pb-[50px] flex items-start gap-x-[30px]'
+          >
             <img src={image} alt='' />
-            <p>{message}</p>
+            <div>
+              <div className='text-lg text-primary font-bold'>{name}</div>
+              <div className='mb-4'>{web}</div>
+              <p className='max-w-[340px]'>{message}</p>
+            </div>
           </SwiperSlide>
         );
       })}
