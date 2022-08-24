@@ -45,7 +45,7 @@ const Features = () => {
                 data-aos-delay={delay}
               >
                 {/* bg image */}
-                <div className='absolute top-0 right-0 -z-10'>
+                <div className='hidden xl:flex absolute top-0 right-0 -z-10'>
                   <img src={bgImage} />
                 </div>
 
@@ -59,10 +59,8 @@ const Features = () => {
                 </div>
                 {/* text */}
                 <div className='max-w-[220px]'>
-                  <h3 className='h3 mb-2 xl:mb-4'>{title}</h3>
-                  <p className='font-light italic mb-1 xl:mb-3'>
-                    {description}
-                  </p>
+                  <h3 className='h3 mb-4'>{title}</h3>
+                  <p className='font-light italic mb-4'>{description}</p>
                   {/* link & arrow */}
                   <div className='flex items-center gap-x-2 group'>
                     <a className='text-primary font-bold' href='#'>
