@@ -10,6 +10,7 @@ import About from './components/About';
 import Features from './components/Features';
 import Testimonials from './components/Testimonials';
 import CtaSection from './components/CtaSection';
+import Footer from './components/Footer';
 
 const App = () => {
   // animate on scroll initialization
@@ -24,7 +25,7 @@ const App = () => {
       <Features />
       <Testimonials />
       <CtaSection />
-      <div className='h-[2000px]'></div>
+      <Footer />
     </div>
   );
 };

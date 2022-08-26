@@ -1,5 +1,6 @@
 // import icons
 import { FaYoutube, FaInstagram, FaGithub } from 'react-icons/fa';
+import { BsChatDotsFill } from 'react-icons/bs';
 
 // import images
 import AboutImg from '../src/assets/img/about.png';
@@ -176,16 +177,21 @@ export const footerData = {
   ],
   socialList: [
     {
-      icon: FaYoutube,
+      icon: <FaYoutube />,
       href: '#',
     },
     {
-      icon: FaInstagram,
+      icon: <FaInstagram />,
       href: '#',
     },
     {
-      icon: FaGithub,
+      icon: <FaGithub />,
       href: '#',
     },
   ],
+};
+
+export const copyrightData = {
+  text: '© Datawarehouse™, 2020. All rights reserved. Company Registration Number: 21479524.',
+  icon: <BsChatDotsFill />,
 };
