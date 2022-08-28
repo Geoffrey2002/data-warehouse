@@ -15,7 +15,7 @@ const CtaSection = () => {
         <div className='flex flex-col xl:flex-row justify-between items-center'>
           {/* text */}
           <div className='py-12 xl:py-24 text-center xl:text-left'>
-            <h2 className='h2 mb-5' data-aos='fade-up' data-aos-delay='300ps'>
+            <h2 className='h2 mb-5' data-aos='fade-up' data-aos-delay='300'>
               {title}
             </h2>
             <p className='lead' data-aos='fade-up'>
